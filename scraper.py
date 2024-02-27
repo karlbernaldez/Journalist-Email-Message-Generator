@@ -32,7 +32,7 @@ def watt_stream(link, max_attempts=5):
         "content": f"Give me the product name or title without the colon only and the best statement only and construct a sentence how you are impressed with the author's review in first person perspective 1 sentence only and make it like your talking to the author and mention the reason. Respond using format like this Product Name:()Statement:()Impression:(Im impressed with your review as it (Reason)) JUST SEND ME THE RESPONSE ONLY NO NEED FOR OTHER WORDS {link}"
     }
     headers = {
-        "Authorization": "Bearer 8c8dd76a47f54bdda7d7efa14b0ada59"
+        "Authorization": "Bearer {apikey}"
     }
 
     for attempt in range(max_attempts):
