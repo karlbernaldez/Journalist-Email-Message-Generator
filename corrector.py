@@ -2,7 +2,7 @@ import google.generativeai as genai
 import time
 
 # Assuming genai.configure is called outside the function, or you can include it in every call
-genai.configure(api_key="AIzaSyCCLMrZRwf1cWIB47PKybLGhQacTnWRoKY")
+genai.configure(api_key=" ")
 
 last_request_time = None
 
